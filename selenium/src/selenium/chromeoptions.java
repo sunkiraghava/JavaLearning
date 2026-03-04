@@ -14,6 +14,7 @@ package selenium;
 	import org.openqa.selenium.chrome.ChromeDriver;
 
 	import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.FirefoxOptions;
 
 
 
@@ -44,11 +45,11 @@ package selenium;
 
 	options.setExperimentalOption("prefs", prefs);
 
-	// FirefoxOptions options1 = new FirefoxOptions();
+	//FirefoxOptions options1 = new FirefoxOptions();
 
-	// options1.setAcceptInsecureCerts(true);
+	//raj.setAcceptInsecureCerts(true);
 
-	// EdgeOptions options2 = new EdgeOptions();
+	//EdgeOptions options2 = new EdgeOptions();
 
 	options.setAcceptInsecureCerts(true);
 
